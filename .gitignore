@@ -1,0 +1,4 @@
+templates_c
+site/backups/*
+icons/*
+!.htaccess
