@@ -1,0 +1,24 @@
+1.)
+Add the Ip from your webserver into the query_ip_whitelist.txt on the "TS3 Server" folder!
+
+2.)
+
+Unzip all files on a Webserver!
+
+3.)
+Edit the config.php with the correct data!
+
+4.)
+
+Set the folder icons, temp, templates_c, site/backups and all subfolders from backups chmod 777
+
+5.)
+
+Open the index.php with your Browser!
+
+6.)
+Login with the Query Login Account Data!
+
+7.)
+
+Have fun!

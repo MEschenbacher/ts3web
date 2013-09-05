@@ -1,0 +1,339 @@
+//Beta 3.4.2
++ Add the new option $show_version to the config.php to show the webinterface version on the footer or not
+* The server msg field on the serverview is now a textarea field
+* The live view on serverview will now show the name of the group if you do a mouseover on the icons
+- Fixed bug that the new channel codecs not show on all settings and infos
+- Fixed bug with the public viewer that join on a subchannel not work
+
+//Beta 3.4.1
+- Fixed bug with the channel backup function. (All channel backups created with 3.4 are broken!) (thx to Terminal-Access)
+- Fixed bug with instanz server backup
+
+//Beta 3.4
+! This version will not Work 100% with server versions < 3.0.7
+* Add french to the language file
+* The server msg field on the serverlist is now a textarea field
+* The serverbackups will now sorted by date groups
+* The channelbackups will now save more settings
+* Add the new Codecs of server 3.0.7
+- Fixed bug with the permissionlists on server version 3.0.7
+
+//Beta 3.3
++ Add function for temporary passwords
+* The Host Banner will now show a small preview
+* It will now show error messages if there is a error on edit Permissions
+* There is now a select all field on the icon delete function
+- Fixed bug with the fast server select window
+- Fixed bug that server not will go in virtual online mode if there are offline
+- Fixed bug that the Start and Stop button not will show on the Serverview
+- Fixed bug that Icons will be deleted if the external Serverviewer loaded
+- Fixed bug that Icons will not all show on icon set window
+
+
+//Beta 3.2
+!This version will not Work with server versions < 3.0.2
+* The welcomemessage and the hostmessage are now textarea fields
+* BBCode in welcomemessage and hostmessage will now parsed on serverview
+* Some Option on Server Edit are now select fields
+* Permissions will now show correct if there are new permissionswith server update
+- Fixed bug that some log messages not show correct
+- Remove the hostlogin function and the port field on login because that is not needed since server version 3.0.2 
+
+// Beta 3.1
++ Add function that the icons which are on the server show on icon Upload and the option that they can deleted from the server
++ Add Client Cleaner
+* Add checkboxes on the tokenlist to delete more tokens
+* The option to create more than one token is not more a select field with defined number of tokens.
+* The totalsize of all Files will show in the Filelist
+- Fixed bug that the icons will deleted and downloaded again
+- Fixed bug that the webinterface will not decode in utf-8
+- Fixed problem with the logviewer there will now no more filter function!
+- Remove the default design there will now only the new design
+
+// Beta 3.0.1
+- Fixed bug that you got banned from server if you use some functions
+
+//Beta 3.0
+* The password for the login will not longer show on plain text in the session
+* The Serverbackups will now save on folder with the ip of the instance and the port.
+* Update the server create function to set the log settings
+- Fixed bug that the interface not delete the session if the instance offline after login
+- Fixed some small bugs
++ Add function that will delete old icons which are not longer on the virtual server
++ Add function to make mass action on the serverlist
++ Add function to open all permissions on the permission edit
++ Add function to set the same grant value to all available grant permissions
++ Add function to set autostart on serverlist
+
+//Beta 2.9.1
+- Fixed bug that the channelicons will not show in the public ts viewer
+- Fixed the problem with the permission edit if you use the beta31pre
++ Add a link on the mainbar for mass move/kick/ban function
+
+//Beta 2.9
+- Fixed bug that there will be some errors if you don't have the permission to see the permissions list on edit permissions
+- Fixed bug that the icons on the public webviewer not show if you not logged on the webinterface
+- Fixed notice message on the public webviewer
+- Fixed bug with set icon on edit permissions
+- Fixed bug with the template on interactive and filebrowser
+- Fixed bug that the filebrowser.php can open without login
+- Fixed bug that the chat messages was not escaped
+- Fixed bug with some language variable
+- Fixed bug that the chanbackup viewer not work correctly
++ Add a message of the day window to the login it will show the text from the motd.txt on the main folder of the interface use html for configure the text. You can turn it on/off on the config.php
++ Add the placeholder error to all *editperm.tpl
++ Add a mass move/kick/ban function to the viewer if you click on the Server Name it will be open a new window
+
+
+//Beta 2.8.2
+- Fixed bug that the interface not work with the Internet Explorer
+- Fixed some language bugs
+- Fixed the bug that the lang file load before the config load on the interactive.php
+- Fixed the bug that the file size on the file list not show in mb
++ Add the language Netherlandish by pd1evl
++ Add country flags to the ts viewer
+
+
+//Beta 2.8.1
+- Fixed bug that the Server count not work corrctly
++ Add the Log options to the Server Edit function
++ Add a new Design to the Webinterface
+
+//Beta 2.8
+* The Webinterface will no use Smarty as Template Engine!
+- Fixed bug that the Server edit not work if you have no permission for one option
+- Fixes bug that the files was blending out if you delete a file on the main list
++ Add the option Parent Id on create channel to create subchannel
++ Add the option $showicons to the config.cfg
++ Add the options showicons, bgcolor and fontcolor to tsviewpub
++ Add the option to create more then one token on the tokenlist
++ Add a search funktion on the client list
++ Add a sort function to the serverlist
++ Add the Log options to the Server Edit function
++ Add a new Design to the Webinterface
+
+//Beta 2.7
+- Fixed bug that the external viewer show a tooltip if you mouseover
+- Fixed bug that the tooltip not show correctly on ie
+- Fixed bug that not all Spacer show correctly on the viewer
+- Fixed bug that the channel codec not show correctly on the tooltip
+- Fixed bug that the logviewer set a port if you click on search if no server selected
+- Fixed bug that permission export not run correctly
+- Fixed bug with File List that will not open folder with spaces on the name
+- Fixed bug with Ban export that the reason was not escaped
+- Fixed bug with the public ts viewer that a tooltip will open
+- Fixed bug with the public ts viewer that he will not show a url to the Server if you click at the channel
+- Fixed bug with the public ts viewer url it will now check wich port is use is the port 443 he will show https:// not http://
+- Fixed bug with warped design if the Font-Size to big
+* The icons on the viewer will now be on the right site.
+* The channel backup function will now backup the permissions
+* Permission export will now delete the permissions in the target group which not set on the source group
++ Add Instanz Backup function (it will make a snapshot from all server with one click)
++ Add a search function to permission edit 
+
+//Beta 2.6
+- Fixed bug with permission export
+- Fixed bug with warped design if the Font-Size to big
+- Fixed bug with send msg name
+- Fixed bug that the channel icons will not show
++ Add a external Ts Viewer
++ Add a filelist where you can see all files on the Channel on one site
+* Change some errors on the ts viewer
+* Update ts viewer with two new icons moderated and channelfull
+
+//Beta 2.5
+- Fixed bug that Serversnaphots can create if you don't have permission for that
+- Fixed bug that you can create backups on hostmode if you don't login as host
+- Fixed bug that the tooltip doesn't work if a ' on the name of a channel or client
+- Fixed bug on Server Group Client list which show a client if the group empty
+- Fixed bug that the interactive window not open if the client nick has a ' in the name
++ Add a filebrowser, works if you click on a channel name on the webviewer
+* Updated client list with a sort funktion and a new paging funktion
+* Changed the Server Group Add function
+* Changed the Channel Group Add function
+
+
+//Beta 2.4.1
+- Fix the problem that the interactive window is blank
+- Fix the problem that the runtime on server info is wrong
++ Add a tooltip on mouseover on the server viewer for more infos about the channel and clients
+
+
+//Beta 2.4
+- Fixed many small Bugs 
+- Fixed the Problem that Server is not editable if the server not running
+- Fixed the Problem that Server not started if Serverhost=true an login as normal user
++ Add Server Alias to the config.php that will no longer show the ip on the login page
++ Add a screate_config.cfg to set defaults for server create
++ Add color online/offline to serverlist
++ Add Weblist function to Instance Edit
++ Add permission check if a Server Selected
++ Add a Log Viewer
++ Add a .htaccess file to the folder icons and backups for direct access deny 
+* Update "Server Group Add" function with Group type 
+* Updated the Serve Viewer
+* Advanced Channel Edit/Server Create/Server Edit with some new propertys
+* Update Permission Edit function this will now edit faster
+* Update to the newest library from par0noid
+
+//Beta 2.3.4
+- Fixed login Bug with Server Version 29
+
+Only ts3admin.class.php changed
+
+//Beta 2.3.3
+- Fixed a critical security gap
+
+//Beta 2.3.2
+- Fixed a security gap
+- Fixed Icon Bug with 64bit Systems
++ Add a variable to the config.php for the runtime 
+
+//Beta 2.3.1
+- Fixed a security gap
+
+//Beta 2.3
+- Fixed bug that the channel backup the channels wrong sorted
+- Fixed bug that the live administration not work if the nickname include " ' "
+- Fixed bug that the wrong message show if you stop the Server.
+- Remove all old Designs
+- Fixed some small bugs
++ Add new Design
++ Add Instance Edit function.
++ Add Icon Upload function.
++ Add Icon Download function to the Serverview if you are on Serverview the Webinterface will automatic download all new Icons from the Server.
++ Add a link to the Icon id fields where you can chose your Icons on a popup.
++ Add Start/Stop function to the Serverview if serverhost=true and not login as Serverhost.
++ Add Instance Statistik to the Serverlist
+* Advanced the Server Edit with Server Icon and Autostart
+* The fastswitch on the header will remain the actually page if the page not Server specific.
+* Change the function from the Live Administration.
+* Translate all files
+* Change the runtime view function to seconds
+
+
+
+//Beta 2.2
++ Add Bans export function
++ Add Client export function
++ Add Host Server Backup function
++ Add Host Channel Backup function
++ Add more settings to Server Create function 
++ Add Min. Client Version to Server Edit, Server View
++ Add a fast server switch to the header (On/Off setting in the config.php)
++ Add the name of the logged in User to the left site of logout
+* Move the Status check variablen and the version Variable updatecheck.php
+- Remove the German translation on the Permissions because it will be to much work to Fixed the webinterface if a new server version come out
+- Fixed bug that the logout link will show if you not logged in
+
+
+//Beta 2.1
++ Add Serversnaphot function 
++ Add Client Search function to Server Group Clients
++ Add Query Console like the console on ts3 Client
++ Add Permission copy function on "server group add" function
++ Add Permission copy function on "channel group add" function
++ Add Permission export function on the category backup
++ Add Start/Stop button on Server View if serverhost===true and not login as serverhost
+* You can add now bans with uid, name and ip
+* Move ban add to extra link
+* Move server group add to extra link
+* Move channel group add to extra link
+* Change color of the paging function on client list
+* All new created Channel backups will now see the server ip
+* Change Add clients function: from select fields to input field because select is not good if you have thousands clients :)
+* Advanced the ts live viewer with two new status
+* Change the token create function it works now with javascript
+- Fixed bug that show on serverview where show on host url and hostbanner url the same
+- Fixed bug with client move, kick, ban and poke on serverview
+- Fixed bugs with german translations
+- Fixed many other small bugs
+
+//Beta 2.0
++ Add a Refresh Start/Stop link to the traffic pages
++ Add Channel Backup function (create/delete/view)
++ Add Complain List with Delete function.
+* Set the refresh of the traffic pages to 3sec.
+* Change the link to download new wi version
+- Fixed bug with the description on the permission list.
+
+//Beta 1.9.1
+*Advanced the Token list with "token created" and "token description".
+*Advaced the Token add function with token description.
+-Remove the template groups from Token add.
+
+//Beta 1.9
++ Add page refresh by traffic
++ Add clip function like ts3 client to the permissions
+- Fixed the bug that permissions are not editable
+
+//Beta 1.8.1
+- Try to Fixed the bug if the cache after update not empty
+- Fixed bug server ip not show at server view
+
+//Beta 1.8
++ Add multiple server login
++ Add show Instance Traffic
++ Add show V-Server Traffic
++ Add show Client Counter (Total, Online, Today, This Week, This Month);
+- Fixed a Bug on server/channel group clients where will not show clients correctly
+- Fixed some small Bugs
+* Login will now show the server debug if the login fails.
+
+//Beta 1.7.1
+- Fixed bug with Send message to Server
+- Fixed bug convert error on Server Edit
+
+//Beta 1.7
++ Add group switch function to channel group clients 
++ Add user search function to  channel group clients 
++ Add Serverhost function: This function is good for serverhost who do not want that the user see all running server
+  in later versions it will come special settings for the serverhost mode. If Serverhost mode off it is all normal.
+* Changed the Server Edit function if one permission miss it will the other settings yet edit. 
+- Fixed some small Bugs
+- Remove the Client List Button for template groups at Channel and Server Groups
+
+//Beta 1.6
++ Add Send message to all Server to Server List
++ Add Send message to Server to Server View
++ Add Ban List
++ Add Ban Add function
++ Add remove Ban function
+* Changed the main navigation from the top to the left side
+- Fixed bug with the Client Kick, Ban, Poke and Move function if the Server id not 1
+- Fixed bug which caused a browser crash when you have banned clients
+
+//Beta 1.5
++ Add Kick function to Server View
++ Add Ban function to Server View
++ Add Poke function to Server View
++ Add Move function to Server View
+- Fixed a Login bug if the password includes an /
+- Fixed a bug if a text on a edit field includes " or ' e.g. the Servername or Description
+
+
+//Beta 1.4
++ Add Server Port edit to Server Edit
++ Add Upload and Download Quota edit to Server Edit
++ Add the gray style from RogueT
+-Fixed some small Bugs
+
+//Beta 1.3
++ Add a duration variable in the config.php to set the client where show on Client List 
+  if more People as the duration on the db it will show a page link to show the other Clients
++ Add more Client Information at Server Group, Channel Group
+* All Permissions can edit by one click not more everey Perm alone.
+-Fixed a Bug with the TS Viewer Style
+-Fixed some small Bugs
+
+//Beta 1.2
++ Add a simple style system
++ Add Upload and Download Bandwidth edit to Server Edit
+* Server Create don't need a Server Port is empty Port it will be Auto Select
+- Fixed a Bug with Welcomemessage
+- Fixed a Bug with Password Set
+
+
+//Beta 1.1
+* Change the Green Style to the white style from RogueT
+- Move the index.html to the gfx folder

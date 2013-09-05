@@ -1,0 +1,169 @@
+body
+	{
+	font-family:verdana, sans-serif;
+	}
+div.content
+	{
+	width:400px;
+	}
+div.place
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	}
+div.pwchanimg
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:URL(images/pwchannel.png);
+	}
+div.chanimg
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:URL(images/channel.png);
+	}
+div.channame
+	{
+	float:left;
+	height:16px;
+	line-height:16px;
+	font-size:12px;
+	font-weight:lighter;
+	}
+div.fullimg
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:URL(images/channel_red.png);
+	}
+div.clear
+	{
+	clear:both;
+	}
+div.away_img
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:URL(images/away.png);
+	}
+div.away_msg
+	{
+	float:left;
+	height:16px;
+	line-height:16px;
+	font-size:12px;
+	font-style:normal;
+	font-weight:lighter;
+	}
+div.hwhead_img
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:URL(images/hwhead.png);
+	}
+div.hwmic_img
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:URL(images/hwmic.png);
+	}
+div.head_img
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:URL(images/head.png);
+	}
+div.mic_img
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:URL(images/mic.png);
+	}
+div.player_on_img
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:URL(images/player_on.png);
+	}
+div.player_img
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:URL(images/player.png);
+	}
+div.player_command_img
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:URL(images/player_commander.png);
+	}
+div.player_command_on_img
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:URL(images/player_commander_on.png);
+	}
+div.clientnick
+	{
+	float:left;
+	height:16px;
+	line-height:16px;
+	font-size:12px;
+	font-style:normal;
+	font-weight:bold;
+	}
+div.channel
+	{
+	height:16px;
+	line-height:16px;
+	margin-bottom:3px;
+	}
+div.client
+	{
+	height:16px;
+	line-height:16px;
+	margin-bottom:3px;
+	}
+div.servername
+	{
+	float:left;
+	height:16px;
+	line-height:16px;
+	font-size:12px;
+	font-style:normal;
+	font-weight:lighter;
+	}
+div.server_img
+	{
+	float:left;
+	width:16px;
+	height:16px;
+	background-image:URL(images/server.png);
+	}
+div.copy
+	{
+	height:16px;
+	line-height:16px;
+	font-size:10px;
+	font-style:normal;
+	font-weight:lighter;
+	}
+
+a:hover, a:visited, a:active, a:link
+	{
+	text-decoration:none;
+	}

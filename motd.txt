@@ -1,0 +1,4 @@
+This is a box for a message of the day.<br />
+You can turn it on/off on the config.php<br />
+
+The text can be changed on the motd.txt on the main folder<br />

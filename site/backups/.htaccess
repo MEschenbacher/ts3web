@@ -1,0 +1,3 @@
+ErrorDocument 403 "<h1>Fehler 403</h1><p>Sie haben keinen Zugriff auf dieses Verzeichnis!</p>"
+Order deny,allow
+Deny from all
