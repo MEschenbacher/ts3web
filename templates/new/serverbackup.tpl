@@ -79,7 +79,7 @@
 	{/if}
 </table>
 <br />	
-{if $serverhost == true AND $hoststatus == true OR $serverhost == false}
+{if $hoststatus == true} 
 	<table style="width:100%" class="border" cellpadding="1" cellspacing="0">
 		<tr>
 			<td class="thead" colspan="3">{$lang['host']} {$lang['serverbackups']}</td>
@@ -155,7 +155,7 @@
 	<input class="button" type="submit" name="create" value="{$lang['create']}" />
 	</form>
 	</td>
-{if $serverhost==true AND $hoststatus==true OR $serverhost==false}
+{if $hoststatus==true}
 	<td class="green1 center">
 	<form method="post" action="index.php?site=serverbackup&amp;sid={$sid}">
 	<input type="hidden" name="hostbackup" value="1" />

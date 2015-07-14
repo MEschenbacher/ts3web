@@ -1,3 +1,7 @@
+//Beta 3.4.3
+- Fixed bug with the serverbackup function
+- Remove some code because security reason!
+
 //Beta 3.4.2
 + Add the new option $show_version to the config.php to show the webinterface version on the footer or not
 * The server msg field on the serverview is now a textarea field
