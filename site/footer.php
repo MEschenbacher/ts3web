@@ -13,7 +13,7 @@
 *You should have received a copy of the GNU General Public License along with this program; if not, see <http://www.gnu.org/licenses/>. 
 */
 $footer2="Teamspeak 3 Web Interface ";
-$footer3="<br /> &copy; by <a href='http://www.ts3.cs-united.de'>Psychokiller</a><br />";
+$footer3="<br /> &copy; by <a href='http://www.psychoscripts.de'>Psychokiller</a><br />";
 $footer4=$footer2.($show_version == true ? $wiversion:'').$footer3;
 $smarty->assign("footer", $footer4);
 ?>

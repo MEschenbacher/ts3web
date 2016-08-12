@@ -106,8 +106,8 @@ if($site=='logout' AND $loginstatus===true)
 require_once('site/footer.php');
 
 $footer=implode("", file('templates/'.$style.DS.'index.tpl'));
-
-if(md5($footer2.$footer3)!='a0f303c0a8846f61ac442b14cb3711f2' OR strpos($footer, '{$footer}')===false)
+ 
+if(md5($footer2.$footer3)!='3065534252aa6d5e72504589c7910335' OR strpos($footer, '{$footer}')===false)
 	{
 	die();
 	}

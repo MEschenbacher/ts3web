@@ -199,7 +199,8 @@ function confirmAction()
 	<tr>
 		<td colspan="2" class="footer">
 		{$footer}
-		powered by <a href='http://www.ts-rent.de'>www.TS-Rent.de</a><br />This interface contains images from <a href='http://www.teamspeak.com'>www.teamspeak.com</a>.
+		powered by <a href='http://www.ts-rent.de'>www.TS-Rent.de</a><br />This interface contains images from <a href='http://www.teamspeak.com'>www.teamspeak.com</a>.<br />
+       <a href='http://www.psychoscripts.de/donate.php'><img alt="" border="0" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_SM.gif" width="86" height="21"></a>
 		</td>
 	</tr>
 </table>

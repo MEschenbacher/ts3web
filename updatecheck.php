@@ -17,5 +17,5 @@ $wiversionurl="http://www.ts3.cs-united.de/ts3wi/wiversion.html";
 $seversionurl="http://www.ts3.cs-united.de/ts3wi/seversion.html";
 
 $neededversionkey="aHR0cDovL3d3dy50czMuY3MtdW5pdGVkLmRlL3RzM3dpL2RpcnR5bGlzdC5odG1s";
-$wiversion="beta3.4.3";
+$wiversion="beta3.4.3.1";
 ?>
