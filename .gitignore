@@ -1,3 +1,4 @@
+.idea/
 config.php
 templates_c/*.php
 site/backups/*
