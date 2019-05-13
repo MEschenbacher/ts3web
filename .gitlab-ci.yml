@@ -18,6 +18,7 @@ build:
   stage: build
   script:
     - docker build --pull -t $TEST_IMAGE .
+    - docker tag $TEST_IMAGE dev
     - docker push $TEST_IMAGE
 
 release:

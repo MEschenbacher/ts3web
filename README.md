@@ -16,7 +16,7 @@ docker run -it --rm \
 -p8989:80 \
 --name ts3web \
 -vc:local_path_on_your_machine/config.php:/var/www/html/config.php \
-ts3web
+registry.gitlab.com/rays3t/ts3web
 ```
 
 Change `local_path_on_your_machine/config.php` to the path on your machine, 
