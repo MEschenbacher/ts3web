@@ -38,3 +38,20 @@ web directory  (or subfolder) of your webserver
 3. Rename it from `config.php.example` to `config.php`
 4. If you encounter any errors, check the file permissions and changed them 
 to the user of your apache / webserver.
+
+
+## Authors and licensing
+This Project is licensed with the GPLv3.
+For more information have a look into the [license](/license.md) file.
+
+Docker image creation by Kevin 'RAYs3T' Urbainczyk
+
+
+Teamspeak 3 Webinterface written by Psychokiller (Daniel P.)
+
+Dev-Website: http://ts3.cs-united.de
+
+
+This software uses the `ts3admin.class.php` from Par0noid (Stefan Z.)
+
+Dev-Website: http://ts3admin.info
