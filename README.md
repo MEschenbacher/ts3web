@@ -28,7 +28,7 @@ In this example we are just starting a container,
 adding the config and exposing the port `8989` on the host.
 
 For better security tho we would recommend to bind the port only to localhost
-(`-plocalhost:8989:80`) and setup a proxy (Apache for example), 
+(`-p172.0.0.1:8989:80`) and setup a proxy (Apache for example), 
 which then forwards the request.
 
 ### Manual installation
