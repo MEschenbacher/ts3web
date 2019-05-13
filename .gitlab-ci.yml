@@ -1,0 +1,30 @@
+image: docker:latest
+services:
+  - docker:dind
+
+stages:
+  - build
+  - test
+  - release
+
+variables:
+  TEST_IMAGE: registry.gitlab.com/rays3t/ts3web:$CI_COMMIT_REF_NAME
+  RELEASE_IMAGE: registry.gitlab.com/rays3t/ts3web:latest
+
+before_script:
+  - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN registry.gitlab.com
+
+build:
+  stage: build
+  script:
+    - docker build --pull -t $TEST_IMAGE .
+    - docker push $TEST_IMAGE
+
+release:
+  stage: release
+  script:
+    - docker pull $TEST_IMAGE
+    - docker tag $TEST_IMAGE $RELEASE_IMAGE
+    - docker push $RELEASE_IMAGE
+  only:
+    - master
