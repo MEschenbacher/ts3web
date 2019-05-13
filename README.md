@@ -22,7 +22,7 @@ registry.gitlab.com/rays3t/ts3web
 Change `local_path_on_your_machine/config.php` to the path on your machine, 
 where you have placed the configuration.
 You can copy a example config from:
-[/src/config.php.exsample](/src/config.php.example)
+[/src/config.php.example](/src/config.php.example)
 
 In this example we are just starting a container, 
 adding the config and exposing the port `8989` on the host.
