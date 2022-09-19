@@ -162,8 +162,8 @@ if(!empty($serverlist))
 	{
 	foreach($serverlist AS $key => $value)
 		{
-		$allslots=$allslots+$value['virtualserver_maxclients'];
-		$allusedslots=$allusedslots+$value['virtualserver_clientsonline'];
+		$allslots=$allslots.$value['virtualserver_maxclients'];
+		$allusedslots=$allusedslots.$value['virtualserver_clientsonline'];
 		$conv_time=$ts3->convertSecondsToArrayTime($value['virtualserver_uptime']);
 		$serverlist[$key]['virtualserver_uptime']=$conv_time['days'].$lang['days']." ".$conv_time['hours'].$lang['hours']." ".$conv_time['minutes'].$lang['minutes']." ".$conv_time['seconds'].$lang['seconds'];
 		$serverlist[$key]=secure($serverlist[$key]);
